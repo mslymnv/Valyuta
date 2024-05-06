@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       <div class="header-all container">
+        <div class="logo"><a href="#"><img src="./assets/images/Asset1@3x1.svg" alt=""></a></div>
+        <div class="nav">
+            <a href="#" class='selected'>BANK</a>
+            <a href="#">BUSINESS</a>
+            <a href="#">INVESTMENTS</a>
+            <a href="#">INSURANCE</a>
+            <a href="#">MOBILE</a>
+            <a href="#">TRIPS</a>
+            <a href="#">ENTERTAINMENT</a>
+        </div>
+        <div class="btn">LOG IN</div>
+       </div>
+    </header>
+    <main>
+        <section id="Convertor-section">
+          <div class="all-c">
+            <p class="p">Currency converter online</p>
+            <div class="convertor">
+                <div class="have w-50">
+                    <p class="have-div">I have it </p>
+                    <div class="btn-all-1">
+                        <button class="rubl active">RUB</button>
+                        <button class="usd">USD</button>
+                        <button class="euro">EUR</button>
+                        <button class="gbp">GBP</button>
+                        <button class="azn">AZN</button>
+
+                   
+
+                    </div>
+                    <div class="inps-setting first-amount ">
+                        <input type="number" name="from"  class="inp1"  min="0" onkeyup="onChange1(event)" placeholder="0" onkeydown="return event.keyCode !== 69">
+                        <p class="val-setting ">1 <span class="one-from2"></span>  =  <span class="one-to2"></span>  <span class="to-valuta2"></span></p>
+                    </div>
+                </div>
+                <div class="want-to-buy w-50">
+                    <p class="have-div">I want to buy </p>
+                    <div class="btn-all-2">
+                        <button class="rubl ">RUB</button>
+                        <button class="usd active2">USD</button>
+                        <button class="euro">EUR</button>
+                        <button class="gbp">GBP</button>
+                        <button class="azn">AZN</button>
+
+                   
+
+                    </div>
+                    <div class="inps-setting second-amount ">
+                        <input type="number" name="from"  class="inp2" min="0"  onkeyup="onChange2(event)"  placeholder="0" onkeydown="return event.keyCode !== 69 ">
+                        <p class="val-setting ">1 <span class="one-from"></span>  =  <span class="one-to"></span>  <span class="to-valuta"></span></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <p style="color: red; font-style: italic; font-size: 32px; margin: 20px 20px;" class="info d-none">Please try again.</p>
+
+          </div>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>

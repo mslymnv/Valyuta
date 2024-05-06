@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,600;0,8..144,700;0,8..144,800;0,8..144,900;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,600;1,8..144,700;1,8..144,800;1,8..144,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline: none;
+}
+.container  
+{
+    padding: 1rem 6rem;
+}
+header{
+    background-color: #f5f5f6;
+}
+.header-all{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.selected{
+    font-size: 11px;
+font-style: normal;
+color: black !important;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.66px;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 100%;
+}
+.nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: left;
+}
+.btn{
+    width: 10%;
+    color: #000;
+    padding:10px  ;
+    border: 1px solid #edebeb ;
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 11px;
+background-color: #fff;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.66px;
+}
+.nav a{
+    margin-left: 2%;
+    color: #959BA4;
+    font-family: 'Roboto', sans-serif;
+font-size: 11px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.66px;
+
+}
+.all-c{
+    width: 51%;
+    margin: 4rem auto;
+    color: #000;
+font-size: 36px;
+font-weight: 700;
+}
+.convertor{
+    
+display: flex;
+}
+p.have-div{
+    margin: 10px 0 4px 0;
+    color: #9F9F9F;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.w-50{
+    width: 50%;
+}
+.btn-all-1,
+.btn-all-2{
+    display: flex;
+
+}
+.d-none{
+    display: none;
+}
+.btn-all-1 button,
+.btn-all-2 button{
+    margin: 8px 0;
+    background-color: white;
+    color: #C6C6C6;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1px solid #C6C6C6;
+    padding: 5px 10px;
+}
+.active,
+.active2{
+   color: white !important;
+    background-color: #833ae0 !important;
+}
+.inps-setting{
+    border: 1px solid #E5E5E5;
+    padding: 5px 16px;
+    width: 90%;
+}
+.inps-setting input{
+  
+    padding: 10px 0;
+    width: 90%;
+    margin-top: 5px;
+    padding-left: 6px;
+    font-size: 32px;
+    font-weight: 600;
+}
+/* Inputdaki artirma iconun yox edir */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.val-setting{
+    color: #C6C6C6;
+
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+margin: 10px 0;
+}
+/* POPUP */
